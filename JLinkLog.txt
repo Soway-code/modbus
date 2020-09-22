@@ -1,0 +1,65 @@
+T5178 000:169.710   SEGGER J-Link V6.70e Log File
+T5178 000:169.830   DLL Compiled: Apr 17 2020 17:55:05
+T5178 000:169.840   Logging started @ 2020-09-21 13:41
+T5178 000:169.852 JLINK_SetWarnOutHandler(...)
+T5178 000:169.862 - 0.013ms
+T5178 000:169.873 JLINK_OpenEx(...)
+T5178 000:172.235   Firmware: J-Link V10 compiled Jun  9 2020 13:38:07
+T5178 000:172.414   Decompressing FW timestamp took 133 us
+T5178 000:177.374   Hardware: V10.10
+T5178 000:177.415   S/N: 600106771
+T5178 000:177.428   OEM: SEGGER
+T5178 000:177.440   Feature(s): RDI, GDB, FlashDL, FlashBP, JFlash
+T5178 000:181.299   TELNET listener socket opened on port 19021
+T5178 000:181.484   WEBSRV Starting webserver
+T5178 000:181.719   WEBSRV Webserver running on local port 19080
+T5178 000:181.738 - 11.869ms returns "O.K."
+T5178 000:181.753 JLINK_GetEmuCaps()
+T5178 000:181.763 - 0.015ms returns 0xB9FF7BBF
+T5178 000:181.776 JLINK_TIF_GetAvailable(...)
+T5178 000:182.406 - 0.638ms
+T5178 000:182.422 JLINK_SetErrorOutHandler(...)
+T5178 000:182.430 - 0.013ms
+T5178 000:182.448 JLINK_ExecCommand("ProjectFile = "C:\Users\macanlin\Desktop\F072CB_PWM\MDK-ARM\JLinkSettings.ini"", ...). 
+T5178 000:190.580   Device "STM32F072CB" selected.
+T5178 000:191.028 - 8.592ms returns 0x00
+T5178 000:191.050 JLINK_ExecCommand("Device = STM32F072CBTx", ...). 
+T5178 000:191.264   Device "STM32F072CB" selected.
+T5178 000:191.618 - 0.563ms returns 0x00
+T5178 000:191.633 JLINK_ExecCommand("DisableConnectionTimeout", ...). 
+T5178 000:191.646 - 0.007ms returns 0x01
+T5178 000:191.657 JLINK_GetHardwareVersion()
+T5178 000:191.666 - 0.013ms returns 0x18A88
+T5178 000:191.675 JLINK_GetDLLVersion()  returns 67005
+T5178 000:191.688 JLINK_GetFirmwareString(...)
+T5178 000:191.697 - 0.012ms
+T5178 000:191.708 JLINK_GetDLLVersion()  returns 67005
+T5178 000:191.717 JLINK_GetCompileDateTime()
+T5178 000:191.726 - 0.014ms
+T5178 000:191.738 JLINK_GetFirmwareString(...)
+T5178 000:191.749 - 0.014ms
+T5178 000:191.758 JLINK_GetHardwareVersion()
+T5178 000:191.766 - 0.012ms returns 0x18A88
+T5178 000:191.781 JLINK_TIF_Select(JLINKARM_TIF_SWD)
+T5178 000:194.447 - 2.689ms returns 0x00
+T5178 000:194.485 JLINK_SetSpeed(25000)
+T5178 000:195.132 - 0.665ms
+T5178 000:195.671 JLINK_SetResetType(JLINKARM_RESET_TYPE_NORMAL)
+T5178 000:195.701 - 0.034ms returns JLINKARM_RESET_TYPE_NORMAL
+T5178 000:195.711 JLINK_Reset()
+T5178 000:196.388 JLINK_GetId()
+T5178 000:197.118 - 0.741ms   returns 0x00000000
+T5178 000:197.135 JLINK_GetId()
+T5178 000:197.777 - 0.651ms   returns 0x00000000
+T5178 000:206.085 JLINK_GetFirmwareString(...)
+T5178 000:206.120 - 0.039ms
+T4D0C 245:880.654   
+  ***** Error: Connection to emulator lost!
+T4D0C 303:948.072   
+  ***** Error: Connection to emulator lost!
+T4D0C 360:175.575   
+  ***** Error: Connection to emulator lost!
+T5178 4887:190.770 JLINK_Close()
+T5178 4887:196.725 - 5.984ms
+T5178 4887:196.762   
+T5178 4887:196.773   Closed
